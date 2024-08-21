@@ -231,3 +231,36 @@ footer.ec-footer.section-space-mt {
 /*===========================
    shop page css end
 ============================*/  
+
+
+/* Billing details page design start */
+
+.ec-checkout-wrap .ec-check-bill-form input {
+    border: 1px solid #000000 !important;  
+}
+
+.ec-checkout-wrap .ec-check-bill-form .ec-bl-select-inner {
+    border: 1px solid #000000 !important;
+}
+
+.checkout_page .ec-checkout-wrap {
+    border: 1px solid #000000 !important;
+}
+
+
+.checkout_page .ec-sidebar-wrap {
+    border: 1px solid #000000 !important;
+}
+
+.ec-checkout-content .ec-check-order-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: center;
+    padding: 0;
+    flex-wrap: wrap;
+    align-content: center;
+}
+/* Billing details page design end */
