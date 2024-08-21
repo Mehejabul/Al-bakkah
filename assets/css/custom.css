@@ -1,0 +1,233 @@
+/* =========================
+      headercss start
+============================= */
+:root{
+    --black-color:#000000;
+    --off-white:#f7f7f7;
+}
+.top_header{
+    background-color:var(--black-color);
+}
+
+.login_container .login{
+    margin: 10px;
+
+}
+
+.login_container .login span{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--black-color);
+}
+
+.amount_container .amount{
+    margin: 10px;
+}
+
+.amount_container .amount span{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--black-color)
+}
+
+.cart-container{
+    margin: 5px;
+}
+
+.custom_search button{
+    background: var(--black-color) !important;
+    height: 50px;
+}
+
+.custom_search .form-control{
+ border-radius: 0px !important;
+ border: 1px solid var(--black-color) !important;
+ 
+}
+
+div#ec-main-menu-desk {
+    background: #000000 !important;
+}
+
+.ec-main-menu ul li a {
+    color: #ffffff !important;
+}
+@media only screen and (max-width: 575px){
+    .amount_container .amount span {
+        display: none;
+    }
+    .login_container .login {
+        display: none;
+    }
+
+    .navbar-light .navbar-toggler {
+        border: none !important;
+    } 
+}
+
+
+/* product area start */
+.section_title{
+    background-color:var(--off-white);
+    margin: 20px 0px;
+}
+.section_title h2{
+    font-size: 30px;
+    text-align: center;
+    font-size: 800;
+    color: var(--black-color);
+    text-transform: uppercase;
+    padding: 20px 0px;
+}
+
+
+ /* product-card 3 start*/
+ .product-card {
+    position: relative;
+    width: 100%; /* Set the desired width */
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Styling the product image */
+.product-card img {
+    width: 100%;
+    transition: opacity 0.3s ease;
+}
+
+/* Back image settings */
+.product-card img.back-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+/* Hover effect */
+.product-card:hover img.back-image {
+    opacity: 1;
+}
+
+.product-card:hover img.front-image {
+    opacity: 0;
+}
+
+/* Product details container */
+.product-details {
+    padding: 15px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+/* Product name styling */
+.product-name {
+    font-size: 13px;
+    margin: 10px 0;
+    color: #000000;
+}
+
+/* Pricing details */
+.product-pricing {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Old price styling */
+.product-pricing .old-price {
+    text-decoration: line-through;
+    color: #999;
+    margin-right: 10px;
+}
+
+/* New price styling */
+.product-pricing .new-price {
+    color: var(--black-color);
+    font-weight: bold;
+}
+
+/* Discount badge */
+.discount-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #e60023;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    z-index: 2; /* Ensures the badge is always on top */
+}
+
+.ec-main-menu ul li.dropdown ul li a {
+    color: black !important;
+}
+
+@media only screen and (max-width: 575px){
+    .amount_container .amount span {
+        display: none;
+    }
+    .login_container .login {
+        display: none;
+    }
+
+    .navbar-light .navbar-toggler {
+        border: none !important;
+    } 
+}
+
+/* product-card 3 end */
+
+/* product area end */
+
+
+/* footer area start */
+footer.ec-footer.section-space-mt {
+    background: #000000;
+}
+
+/* footer area end */
+
+
+
+/* cart css start */
+.cart-container {
+    position: relative;
+    display: inline-block;
+    font-size: 24px;
+}
+
+.cart-container .fa-shopping-cart {
+    color: #333;
+}
+
+.cart-container .cart-count {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #000000;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* cart css en */
+
+/* ==========================
+       header start end
+=============================  */
+
+
+/*===========================
+   shop page css start 
+============================*/  
+.section-space-p {
+  padding: 0px 0px !important;
+}
+
+/*===========================
+   shop page css end
+============================*/  
